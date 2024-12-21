@@ -415,3 +415,18 @@ main {
     }
 }
 
+@media screen and (max-width:1200px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width:998px) {
+    html {
+        font-size: 55%;
+    }
+    .top-logo-container img {
+        width: 50%;
+    }
+}
+
