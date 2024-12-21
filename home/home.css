@@ -329,3 +329,8 @@ main {
     font-size: 1.3rem;
 }
 
+.download:hover {
+    background-color: #cbffa6;
+    color: black;
+}
+
