@@ -478,3 +478,11 @@ main {
         width: 70%;
     }
 }
+
+@media screen and (max-width:300px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+/* responsive code above */
