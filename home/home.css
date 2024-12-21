@@ -188,3 +188,7 @@ main {
     border-radius: 10px;
 }
 
+.deactivate-loader {
+    display: none;
+}
+
