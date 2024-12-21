@@ -205,3 +205,12 @@ main {
     animation: fade458 1s linear infinite;
 }
 
+@keyframes fade458 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.25;
+    }
+}
+
