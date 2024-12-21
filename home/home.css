@@ -346,3 +346,13 @@ main {
     cursor: pointer;
     transition-duration: .3s;
 }
+
+.line1,
+.line2 {
+    position: absolute;
+    width: 45%;
+    height: 2px;
+    background-color: rgb(255, 117, 117);
+    transition-duration: .3s;
+}
+
