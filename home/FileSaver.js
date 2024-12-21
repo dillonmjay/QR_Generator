@@ -36,3 +36,16 @@ function bom(blob, opts) {
     }
     return blob
 }
+
+function download(url, name, opts) {
+    var xhr = new XMLHttpRequest()
+    xhr.open('GET', url)
+    xhr.responseType = 'blob'
+    xhr.onload = function() {
+        saveAs(xhr.response, name, opts)
+    }
+    xhr.onerror = function() {
+        console.error('could not download file')
+    }
+    xhr.send()
+}
