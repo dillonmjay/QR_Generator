@@ -402,3 +402,16 @@ main {
     color: #6aff03;
 }
 
+.fa-copyright {
+    font-size: 1.3rem;
+    color: rgb(176, 176, 176);
+}
+
+/* responsive code below*/
+
+@media screen and (max-width:1920px) {
+    html {
+        font-size: 60%;
+    }
+}
+
