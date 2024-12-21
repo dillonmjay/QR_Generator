@@ -153,3 +153,27 @@ main {
     font-family: Orbitron;
     font-weight: 600;
 }
+
+.submit:hover {
+    border-radius: 5px;
+    background: #6aff03;
+    color: white;
+    border: 2px solid #000000;
+}
+
+.Qr-container {
+    position: absolute;
+    z-index: 5;
+    width: 80%;
+    height: 80vh;
+    background-color: rgba(44, 44, 44, 0.521);
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px 0 40px 0;
+    display: none;
+}
+
