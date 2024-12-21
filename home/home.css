@@ -31,3 +31,11 @@ body {
     background-color: rgb(10, 10, 10);
 }
 
+main {
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
