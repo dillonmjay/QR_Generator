@@ -454,3 +454,27 @@ main {
     }
 }
 
+@media screen and (max-width:430px) {
+    html {
+        font-size: 43%;
+    }
+    .loader {
+        top: 130px;
+    }
+    .Qr-container img {
+        width: 80%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:375px) {
+    html {
+        font-size: 40%;
+    }
+    .main-container {
+        gap: 10px;
+    }
+    .input {
+        width: 70%;
+    }
+}
