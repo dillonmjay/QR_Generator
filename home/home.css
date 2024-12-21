@@ -62,3 +62,16 @@ main {
     padding-top: 200px;
 }
 
+.input {
+    color: #dbffb1;
+    border: 2px solid #c9ffcc;
+    /* border-radius: 10px; */
+    padding: 10px 25px;
+    background: transparent;
+    width: 300px;
+}
+
+.input:active {
+    box-shadow: 2px 2px 15px #dfffbb93 inset;
+}
+
