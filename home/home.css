@@ -317,3 +317,15 @@ main {
     font-family: Orbitron;
 }
 
+.download {
+    width: 30%;
+    height: 35px;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    font-family: Orbitron;
+    font-size: 1.3rem;
+}
+
