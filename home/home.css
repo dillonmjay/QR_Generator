@@ -356,3 +356,11 @@ main {
     transition-duration: .3s;
 }
 
+.line1 {
+    transform: rotate(45deg);
+}
+
+.line2 {
+    transform: rotate(-45deg);
+}
+
