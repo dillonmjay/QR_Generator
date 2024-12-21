@@ -396,3 +396,9 @@ main {
     font-size: 1.3rem;
     font-family: Orbitron;
 }
+
+.footerContainer a {
+    text-decoration: none;
+    color: #6aff03;
+}
+
