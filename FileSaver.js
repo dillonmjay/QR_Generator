@@ -10,3 +10,14 @@
 //  ██╗░░██║██╔══██║░░░██╔╝░░██╔══██║░░░██║░░░██║██║░░░░██║░░░░██╔══██║██║░██╗░██╔═══╝
 //  ╚█████╔╝██║░░██║░░░██║░░░██║░░██║░░░██║░░░██║██████╗██████╗██║░░██║██║░░██╗██████╗
 //  ░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░╚═╝╚═════╝╚═════╝╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝
+let QrContainer = document.getElementById('Qr-container');
+let exit = document.getElementById('exit');
+let QR = document.getElementById('qr-code');
+let input = document.getElementById('input');
+let submit = document.getElementById('submit');
+var loader = document.getElementById("loader");
+let jpg = document.getElementById('forjpg');
+let png = document.getElementById('forpng');
+let svg = document.getElementById('forsvg');
+
+
