@@ -430,3 +430,27 @@ main {
     }
 }
 
+@media screen and (max-width:768px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    html {
+        font-size: 45%;
+    }
+    .top-logo-container img {
+        width: 60%;
+    }
+    .downloadBtnContainer {
+        width: 80%;
+    }
+    .buttonRow {
+        flex-direction: column;
+    }
+    .download {
+        width: 40%;
+    }
+}
+
